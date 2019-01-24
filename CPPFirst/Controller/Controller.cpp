@@ -7,3 +7,22 @@
 //
 
 #include "Controller.hpp"
+
+
+Controller :: Controller()
+{
+    this-> specialNumber = 123456;
+}
+void Controller :: start()
+{
+    cout << "This is inside the startmethod" << endl;
+    cout <<"This is how you access a variable" << specialNumber << endl;
+    cout << "Seperate chunks with the << are just like a + strings in java" << endl;
+    specialNumber = 123;
+    string answer;
+    cout << "type in your real name" << endl;
+    cin >> answer;
+    cout << "youTyped: " << answer << endl;
+    cout << "stuff" << answer << "wasda" << endl;
+    getline(cin, answer);
+}
