@@ -6,12 +6,15 @@
 //  Copyright © 2019 CTEC CSP. All rights reserved.
 //
 
-#include <iostream>
+#include "Controller.hpp"
 
 int main()
 {
-    Controller app;
-    app.start();
+//    Controller app;
+//    app.start();
+    
+    Controller * app = new Controller();
+    app->start();
     
     return 0;
 }
