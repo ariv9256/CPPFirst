@@ -41,7 +41,6 @@
 		0FCD44C521FA46EC0017973D = {
 			isa = PBXGroup;
 			children = (
-				0FCD44D821FA47C00017973D /* Runner.cpp */,
 				0FCD44D021FA46ED0017973D /* CPPFirst */,
 				0FCD44CF21FA46ED0017973D /* Products */,
 			);
@@ -58,8 +57,17 @@
 		0FCD44D021FA46ED0017973D /* CPPFirst */ = {
 			isa = PBXGroup;
 			children = (
+				0FCD44DA21FA48B80017973D /* Controller */,
 			);
 			path = CPPFirst;
+			sourceTree = "<group>";
+		};
+		0FCD44DA21FA48B80017973D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD44D821FA47C00017973D /* Runner.cpp */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
